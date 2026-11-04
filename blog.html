@@ -6,27 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Blog - BASpeed</title>
     <meta name="twitter:description" content="Test de velocidad, y suite de diagnostico de la conexión a internet.">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/ordenador-1.jpg">
+    <meta name="twitter:image" content="assets/img/tech/ordenador-1.jpg">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/ordenador-1.jpg">
+    <meta property="og:image" content="assets/img/tech/ordenador-1.jpg">
     <meta name="twitter:title" content="BASpeed">
     <meta name="description" content="Blog con todos los detalles del desarrollo de la suite BASpeed">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bss-overrides.css">
     <link rel="stylesheet" href="assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
-</script>
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -77,7 +69,7 @@ function PonerCookie(){
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand font-weight-bold text-center logo" href="index.html" style="background: url(&quot;assets/img/BASpeed.png&quot;) center / contain no-repeat;text-shadow: 3px 3px 4px;">BASpeed<br><br></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
@@ -86,12 +78,12 @@ function PonerCookie(){
                     <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
                     <li class="nav-item"><a class="nav-link active" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" role="button" href="#">enlaces</a>
                         <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a>
                         </div>
                     </li>
                 </ul>
@@ -108,84 +100,72 @@ function PonerCookie(){
                 <div class="block-content">
                     <div class="clean-blog-post">
                         <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/velocidad.jpg"></div>
+                            <div class="col-lg-5"><img class="img-fluid rounded" src="assets/img/tech/hypercar.jpg"></div>
                             <div class="col-lg-7">
-                                <h3><a href="blog/ya-puedes-descargar-ultimo-test-velocidad.html">Ya puedes descargar el último test de velocidad</a></h3>
+                                <h3><a href="blog/lanzado-baspeed-v12-xtreme-edition.html">Lanzado BASpeed v12 XTreme Edition</a></h3>
+                                <div class="info"><span class="text-muted">08 Septiembre, 2021 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
+                                <p>Hola a tod@s 😊. Hace ya un tiempo que lancé la última versión de BASpeed y&nbsp;<a href="https://bandaancha.eu/foros/noticia-poco-triste-1743484" target="_blank">aunque tengo muy poco tiempo para poder actualizar los programas</a>, he sacado huecos de donde no hay para poder traeros esta nueva versión. Se solucionan algunos problemas de la versión antigua (alguno grave y que lastraba la aplicación) y se añaden algunas cosas nuevas.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/lanzado-baspeed-v12-xtreme-edition.html">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post">
+                        <div class="row">
+                            <div class="col-lg-5"><img class="img-fluid rounded" src="assets/img/tech/ba.png"></div>
+                            <div class="col-lg-7">
+                                <h3><a href="blog/app-bandaanchaeu-actualizada.html">App oficial de bandaancha.eu actualizada</a></h3>
+                                <div class="info"><span class="text-muted">29 Marzo, 2021 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
+                                <p>Hola a tod@s 😊. Os anuncio que la aplicación oficial que desarrollé para el portal bandaancha.eu ha sido actualizada para estar preparada para los cambios que van a llegar al Play Store de Google en los próximos meses.<br>El primer cambio llega en Agosto de este año, cuando todas las aplicaciones nuevas deben utilizar el formato de aplicación aab (Aplication Bundle), en vez del antiguo formato APK.</p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/app-bandaanchaeu-actualizada.html">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post">
+                        <div class="row">
+                            <div class="col-lg-5"><img class="img-fluid rounded" src="assets/img/tech/25463.jpg"></div>
+                            <div class="col-lg-7">
+                                <h3><a href="blog/inicio-baspeed-android-edition-v2.html">Inicio de BASpeed Android Edition v2</a></h3>
+                                <div class="info"><span class="text-muted">20 Diciembre, 2020 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
+                                <p>Hola a tod@s 😊. Hoy por fin, hago el anuncio que debería haber hecho hace mucho tiempo, pero que por determinados factores (enfermedades familiares, corrección de errores de otras aplicaciones o nuevas versiones de las mismas, etc.) no he podido hacer hasta hoy.<br><br>Os anuncio que oficialmente está en marcha el desarrollo de la versión 2 del test de velocidad de BASpeed para Android (más conocido como BASpeed Android Edition).<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/inicio-baspeed-android-edition-v2.html">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post">
+                        <div class="row">
+                            <div class="col-lg-5"><img class="img-fluid rounded" src="assets/img/tech/ba.png"></div>
+                            <div class="col-lg-7">
+                                <h3><a href="blog/version-final-noticias-bandaanchaeu.html">Versión final de Noticias bandaancha.eu</a></h3>
+                                <div class="info"><span class="text-muted">24 Octubre, 2020 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
+                                <p>Muy buenas a todos 😊. Acabo de subir una nueva actualización a la&nbsp;<a href="https://play.google.com/store/apps/details?id=com.embarcadero.bandaancha">Play Store</a>&nbsp;de la aplicación&nbsp;<strong>Noticias bandaancha.eu</strong>. La aplicación tiene como número de versión&nbsp;<strong>v2.0.405</strong>. Tiene muy pocos cambios, pero merece la pena explicarlos ya que alguno cambia completamente como funciona internamente la app. Aquí van:<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/version-final-noticias-bandaanchaeu.html">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post">
+                        <div class="row">
+                            <div class="col-lg-5"><img class="img-fluid rounded" src="assets/img/tech/ba.png"></div>
+                            <div class="col-lg-7">
+                                <h3><a href="blog/algo-nuevo-en-camino.html">Algo nuevo en camino</a></h3>
                                 <div class="info"><span class="text-muted">14 Agosto, 2020 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Era algo que tarde o temprano iba a suceder. BASpeed es una suite muy completa y muy potente. Quizás demasiado potente para un usuario normal, con conocimientos no muy altos de redes, comunicaciones o PC. Por eso he decidido ofrecer el test de velocidad de BASpeed (la aplicación más buscada de BASpeed), como descarga independiente.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/ya-puedes-descargar-ultimo-test-velocidad.html">Leer más</a>
+                                <p>Hola a todos 😊. Ayer publiqué&nbsp;<a href="https://bandaancha.eu/foros/otra-cosa-viene-camino-1740662"><strong>una noticia en bandaancha.eu</strong></a>, indicando que estaba creando una nueva versión de la aplicación de&nbsp;<a href="https://play.google.com/store/apps/details?id=com.embarcadero.bandaancha"><strong>noticias bandaancha.eu</strong></a>. En esa noticia, publiqué las fotos del aspecto actual de la aplicación, y del nuevo aspecto que estaba tomando la nueva versión de la aplicación.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/algo-nuevo-en-camino.html">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="clean-blog-post">
                         <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/nuevosoftware.jpg"></div>
+                            <div class="col-lg-5"><img class="img-fluid rounded" src="assets/img/tech/googlemaps.jpg" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;);"></div>
                             <div class="col-lg-7">
-                                <h3><a href="blog/novedades-desarrollo-baspeed.html">Novedades en el desarrollo de BASpeed</a></h3>
-                                <div class="info"><span class="text-muted">27 Julio, 2020 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Supongo que lo habréis notado si visitáis con relativa frecuencia el site oficial de BASpeed. Ya no tiene el aspecto de un blog normal y cualquiera, y tiene el aspecto de una página mucho más profesional y bonita visualmente.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/novedades-desarrollo-baspeed.html">Leer más</a>
+                                <h3><a href="blog/actualizacion-test-velocidad.html">Actualización del test de velocidad</a></h3>
+                                <div class="info"><span class="text-muted">14 Agosto, 2020 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
+                                <p>Hola a todos 😊. Acabo de subir tanto al site oficial como a la copia del site oficial una nueva versión del test de velocidad de BASpeed. Esta nueva versión no trae nada nuevo como tal, sino que cambia uno de los tests de velocidad ya existentes por otro.&nbsp;<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/actualizacion-test-velocidad.html">Leer más</a>
                             </div>
                         </div>
                     </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/paginaweb.jpg"></div>
-                            <div class="col-lg-7">
-                                <h3><a href="blog/por-fin-pagina-web-nueva.html">Por fin, página web nueva</a></h3>
-                                <div class="info"><span class="text-muted">24 Julio, 2020 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Supongo que lo habréis notado si visitáis con relativa frecuencia el site oficial de BASpeed. Ya no tiene el aspecto de un blog normal y cualquiera, y tiene el aspecto de una página mucho más profesional y bonita visualmente.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/por-fin-pagina-web-nueva.html">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/updrade.jpg"></div>
-                            <div class="col-lg-7">
-                                <h3><a href="blog/actualizacion-v11-0-0-233.html"><strong>Actualización v11.0.0.233</strong></a><br></h3>
-                                <div class="info"><span class="text-muted">23 Abril, 2019 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Hola a todos :) Acabo de subir al&nbsp;<a href="index.html">site oficial</a>&nbsp;los nuevos instaladores de BASpeed 2018 de 32 y 64 bits, específicos para dichas versiones de Windows. Los enlaces ya están cambiados y disponibles en la&nbsp;<a href="descargas.html">sección de descargas</a>&nbsp;de este site oficial.Se aconseja a todos los usuarios que si disponen de una versión de 64 bits de&nbsp;<a href="https://www.microsoft.com/es-es/windows">Windows</a>, instalen la versión de 64 bits de BASpeed 2018, ya que está compilada especificamente para dicha versión de Windows.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/actualizacion-v11-0-0-233.html">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/error.jpg"></div>
-                            <div class="col-lg-7">
-                                <h3><a href="blog/actualizacion-baspeed-11-0-1-205.html"><strong>Actualización de BASpeed v11.0.1.205</strong></a><br></h3>
-                                <div class="info"><span class="text-muted">27 Octubre, 2018 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Después de diez meses sin actualizar nada de BASpeed, y viendo que se habían presentado errores en algunos módulos - en concreto en los test de velocidad, ping y tracert - he actualizado los módulos para que no se presenten más errores, y he modificado algunas cosas para actualizar el funcionamiento de los programas.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/actualizacion-baspeed-11-0-1-205.html">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/Cubo.jpg"></div>
-                            <div class="col-lg-7">
-                                <h3><a href="blog/actualizacion-version-final-baspeed-2018.html">Actualización a la versión final de BASpeed 2018</a></h3>
-                                <div class="info"><span class="text-muted">4 Enero, 2018 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Hola a todos :) Esta mañana<a href="http://baspeed.bandaancha.eu/">&nbsp;subí al site oficial</a>&nbsp;la actualización a la versión final de BASpeed 2018. Su número de versión es 11.0.0.101. Como ya comenté en su momento en&nbsp;<a href="http://baspeed.synology.me/lanzamiento-de-baspeed-2018-version-final">mi blog personal</a>, ha habido algún problema con el FTP para poder subir la actualización (en realidad un fallo mío por cambio en el nombre del servidor, cosas del cambio de año xD), pero ya está solucionado y he podido subir esta nueva versión, que ya es final.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/actualizacion-version-final-baspeed-2018.html">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/espiral.jpg"></div>
-                            <div class="col-lg-7">
-                                <h3><a href="blog/ya-esta-activa-zona-descargas.html">Ya está activa la zona de descargas</a></h3>
-                                <div class="info"><span class="text-muted">16 Octubre, 2017 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Hola a todos :) Acabo de publicar la zona de descargas del site oficial. De momento, sólo he podido subir al site las últimas versiones de BASpeed 2018 (32 y 64 bits) y el optimizador de la conexión. En los próximos días iré subiendo el resto del software que falta para completar la zona de descargas tal y como estaba antes.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/ya-esta-activa-zona-descargas.html">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clean-blog-post">
-                        <div class="row">
-                            <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/tech/update.jpg"></div>
-                            <div class="col-lg-7">
-                                <h3><a href="blog/actualizando-site-oficial.html">Actualizando el site oficial</a></h3>
-                                <div class="info"><span class="text-muted">15 Octubre, 2017 por&nbsp;<a href="sobre-nosotros.html">djnacho</a></span></div>
-                                <p>Hola y bienvenidos al nuevo site oficial de BASpeed. Como os habréis dado cuenta durante unos días el site oficial ha estado fuera de linea (sin conexión). Esto es porque el CMS que estaba utilizando (Joomla) me estaba dando muchos problemas, tanto a la hora de actualizar el CMS, como para actualizar distintos componentes del mismo.<br></p><a class="btn btn-outline-primary btn-sm" role="button" href="blog/actualizando-site-oficial.html">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item disabled"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="blog/page2/blog2.html">2</a></li>
+                            <li class="page-item"><a class="page-link" aria-label="Next" href="blog/page2/blog2.html"><span aria-hidden="true">»</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </section>
@@ -226,7 +206,7 @@ function PonerCookie(){
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2006-2020 djnacho &amp; BASpeed Software</p>
+            <p>© 2006-2021 djnacho &amp; BASpeed Software</p>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>

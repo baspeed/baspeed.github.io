@@ -6,27 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>BASpeed - BASpeed</title>
     <meta name="twitter:description" content="Test de velocidad, y suite de diagnostico de la conexión a internet.">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/ordenador-1.jpg">
+    <meta name="twitter:image" content="assets/img/tech/ordenador-1.jpg">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/ordenador-1.jpg">
+    <meta property="og:image" content="assets/img/tech/ordenador-1.jpg">
     <meta name="twitter:title" content="BASpeed">
     <meta name="description" content="Información sobre el test de velocidad y suite de diagnostico de la conexión a internet.">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bss-overrides.css">
     <link rel="stylesheet" href="assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
-</script>
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -77,7 +69,7 @@ function PonerCookie(){
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand font-weight-bold text-center logo" href="index.html" style="background: url(&quot;assets/img/BASpeed.png&quot;) center / contain no-repeat;text-shadow: 3px 3px 4px;">BASpeed<br><br></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
@@ -86,12 +78,12 @@ function PonerCookie(){
                     <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" role="button" href="#">enlaces</a>
                         <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a>
                         </div>
                     </li>
                 </ul>
@@ -107,14 +99,14 @@ function PonerCookie(){
                         <h3>Suite de test de velocidad y diagnostico de internet (BASpeed)</h3>
                         <div class="post-info"><span>Por djnacho</span><span>19 Julio, 2020</span></div>
                         <p style="text-align: justify;"><strong>BASpeed es una suite (o conjunto de aplicaciones)</strong> diseñado con un único fin. <strong>Proporcionar</strong> al usuario toda la <strong>información</strong> posible <strong>sobre su conexión</strong>, de forma que el usuario pueda determinar por si mismo si existe algún problema en la conexión a internet.<br><br>Para ello el usuario dispone de un <strong>test de velocidad, un test de ping y&nbsp; un test de tracert</strong> que permiten realizar el diagnóstico inicial de la conexión. <strong>Aparte</strong> de esos tres programas, <strong>la suite tiene un optimizador de la conexión</strong> a internet (interesante para sistemas operativos Windows), <strong>un sincronizador de hora</strong> (para poner la hora exacta en el sistema operativo), <strong>un test de velocidad en red local</strong> (para determinar si hay algún problema de velocidad en la red local del usuario), <strong>una gráfica de velocidad instantánea</strong> (para ver la velocidad del adaptador de red de forma gráfica), <strong>un generador de claves WEP/WPA/WPA2</strong> que permite generar claves seguras para el router WIFI (y también para sitios web donde se necesite seguridad en las claves de acceso), y muchos más programas que permiten al usuario el control y diagnóstico total y absoluto de su conexión.</p>
-                        <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/scenery/Test-Tracert.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figure class="figure"><img class="img-fluid figure-img rounded" src="assets/img/scenery/Test-Tracert.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
                             <figcaption class="figure-caption">Captura de pantalla del test de ping de BASpeed</figcaption>
                         </figure>
                         <h4>Un software creado con ayuda de la comunidad</h4>
                         <p style="text-align: justify;"><strong>BASpeed fue construido</strong> desde su primera versión, <strong>como un software en el cual estaba muy involucrada la comunidad de usuarios</strong> de bandaancha.eu y de internet en general. Este software no se entendería como tal sin la ayuda de dichos usuarios, realizando tests, informando de errores, aportando sugerencias, etc.</p>
                         <div class="row">
                             <div class="col-md-6">
-                                <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/scenery/principal.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figure class="figure"><img class="img-fluid figure-img rounded" src="assets/img/scenery/principal.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
                                     <figcaption class="figure-caption">Pantalla de inicio de BASpeed</figcaption>
                                 </figure>
                             </div>
@@ -123,13 +115,13 @@ function PonerCookie(){
                             </div>
                         </div>
                         <h4>Si te gusta, hazlo saber</h4>
-                        <p><strong>BASpeed no está presente únicamente en bandaancha.eu y sus foros.</strong> Tiene presencia en <a href="https://www.facebook.com/baspeed.software"><strong>Facebook</strong></a><a href="https://www.facebook.com/baspeed.software"> </a>con una página de producto para el sólo. <strong>Si te gusta el software</strong>, y crees que puede ayudar a más gente, no lo dudes,<strong> pulsa el botón me gusta de la página</strong> para que los usuarios vean que es una aplicación segura, fiable y útil.</p>
+                        <p><strong>BASpeed no está presente únicamente en bandaancha.eu y sus foros.</strong> Tiene presencia en <a href="https://www.facebook.com/baspeed.software"><strong>Facebook</strong> </a>con una página de producto para el sólo. <strong>Si te gusta el software</strong>, y crees que puede ayudar a más gente, no lo dudes,<strong> pulsa el botón me gusta de la página</strong> para que los usuarios vean que es una aplicación segura, fiable y útil.</p>
                         <div class="row">
                             <div class="col">
                                 <p>Del mismo modo, <strong>si el programa te resulta de utilidad y quieres hacer una aportación</strong> en forma de sugerencia, informando de un fallo, etc, <strong>puedes hacerlo perfectamente a través del foro oficial de BASpeed</strong>, en el cual estaré encantado de leerte y pasar a la práctica tus sugerencias o corrigiendo los errores que encuentres.</p>
                             </div>
                             <div class="col-md-6">
-                                <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/scenery/facebook.jpeg" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figure class="figure"><img class="img-fluid figure-img rounded" src="assets/img/scenery/facebook.jpeg" alt="A generic square placeholder image with rounded corners in a figure.">
                                     <figcaption class="figure-caption">Una imagen de página de producto de facebook.</figcaption>
                                 </figure>
                             </div>
@@ -175,7 +167,7 @@ function PonerCookie(){
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2006-2020 djnacho &amp; BASpeed Software</p>
+            <p>© 2006-2021 djnacho &amp; BASpeed Software</p>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
