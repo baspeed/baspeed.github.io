@@ -8,26 +8,34 @@
     <meta name="twitter:description" content="Test de velocidad, y suite de diagnostico de la conexión a internet.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/error.jpg">
+    <meta name="twitter:image" content="../assets/img/tech/error.jpg">
     <meta property="og:description" content="Después de diez meses sin actualizar nada de BASpeed, y viendo que se habían presentado errores en algunos módulos - en concreto en los test de velocidad, ping y tracert - he actualizado los módulos para que no se presenten más errores, y he modificado algunas cosas para actualizar el funcionamiento de los programas.">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/error.jpg">
+    <meta property="og:image" content="../assets/img/tech/error.jpg">
     <meta name="twitter:title" content="Actualización de BASpeed v11.0.1.205">
     <meta name="description" content="Después de diez meses sin actualizar nada de BASpeed, y viendo que se habían presentado errores en algunos módulos - en concreto en los test de velocidad, ping y tracert - he actualizado los módulos para que no se presenten más errores, y he modificado algunas cosas para actualizar el funcionamiento de los programas.">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -79,24 +87,24 @@ function PonerCookie(){
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
-                    <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
-                        </div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\index.html">inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\caracteristicas.html">características</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\descargas.html">DESCARGAs</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\sobre-nosotros.html">sobre nosotros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\politica-privacidad.html">privacidad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\blog.html">BLOG</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -107,7 +115,14 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3><strong>Actualización de BASpeed v11.0.1.205</strong><br></h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>27 Octubre, 2018</span></div>
-                        <p>Después de diez meses sin actualizar nada de BASpeed, y viendo que se habían presentado errores en algunos módulos - en concreto en los test de velocidad, ping y tracert - he actualizado los módulos para que no se presenten más errores, y he modificado algunas cosas para actualizar el funcionamiento de los programas.<br><br>Aquí tenéis una lista con los cambios:<br><br><strong>Modificado el código del test de velocidad</strong> para que pueda mostrar el mapa correctamente. También se ha añadido un enlace a esta página desde el panel desplegable del programa que aparece pulsando las teclas CONTROL+I. También se ha puesto un letrero pequeño en la parte de abajo para avisar a los usuarios que pueden ver la información avanzada pulsando esas dos teclas simultáneamente.<br><br><strong>Modificado el test de ping</strong> para que muestre el mapa correctamente. Debido a un fallo en la librería de localización del programa (la que calcula la ubicación del PC) se ha optado por una solución temporal, haciendo que la primara ubicación esté situada en Madrid capital.<br><br><strong>Modificado el test de tracert</strong> para que muestre el mapa correctamente. Debido a un fallo en la librería de localización del programa (la que calcula la ubicación del PC) se ha optado por una solución temporal, haciendo que la primara ubicación esté situada en Madrid capital.<br><br>Espero que ahora todo funcione perfectamente. Dentro de algún tiempo, y como noticia para los usuarios de mi software, os comento que tengo pensado actualizar la versión para Android del test de velocidad. Quizás me decida a actualizar la aplicación para Android que muestra las noticias y los foros de bandaancha.eu, pero esta última funciona tan bien que es muy posible que no se actualice, o bien sea una actualización menor para eliminar algún fallo puntual.<br><br>Un saludo a todos y que lo disfrutéis 😉<br></p>
+                        <p>Después de diez meses sin actualizar nada de BASpeed, y viendo que se habían presentado errores en algunos módulos - en concreto en los test de velocidad, ping y tracert - he actualizado los módulos para que no se presenten más
+                            errores, y he modificado algunas cosas para actualizar el funcionamiento de los programas.<br><br>Aquí tenéis una lista con los cambios:<br><br><strong>Modificado el código del test de velocidad</strong> para que pueda mostrar
+                            el mapa correctamente. También se ha añadido un enlace a esta página desde el panel desplegable del programa que aparece pulsando las teclas CONTROL+I. También se ha puesto un letrero pequeño en la parte de abajo para avisar
+                            a los usuarios que pueden ver la información avanzada pulsando esas dos teclas simultáneamente.<br><br><strong>Modificado el test de ping</strong> para que muestre el mapa correctamente. Debido a un fallo en la librería de
+                            localización del programa (la que calcula la ubicación del PC) se ha optado por una solución temporal, haciendo que la primara ubicación esté situada en Madrid capital.<br><br><strong>Modificado el test de tracert</strong>                            para que muestre el mapa correctamente. Debido a un fallo en la librería de localización del programa (la que calcula la ubicación del PC) se ha optado por una solución temporal, haciendo que la primara ubicación esté situada
+                            en Madrid capital.<br><br>Espero que ahora todo funcione perfectamente. Dentro de algún tiempo, y como noticia para los usuarios de mi software, os comento que tengo pensado actualizar la versión para Android del test de velocidad.
+                            Quizás me decida a actualizar la aplicación para Android que muestra las noticias y los foros de bandaancha.eu, pero esta última funciona tan bien que es muy posible que no se actualice, o bien sea una actualización menor para
+                            eliminar algún fallo puntual.<br><br>Un saludo a todos y que lo disfrutéis 😉<br></p>
                     </div>
                 </div>
                 <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>

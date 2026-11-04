@@ -10,24 +10,32 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="description" content="Acabo de publicar la zona de descargas del site oficial. De momento, sólo he podido subir al site las últimas versiones de BASpeed 2018 (32 y 64 bits) y el optimizador de la conexión. En los próximos días iré subiendo el resto del software que falta para completar la zona de descargas tal y como estaba antes.">
     <meta property="og:description" content="Acabo de publicar la zona de descargas del site oficial. De momento, sólo he podido subir al site las últimas versiones de BASpeed 2018 (32 y 64 bits) y el optimizador de la conexión. En los próximos días iré subiendo el resto del software que falta para completar la zona de descargas tal y como estaba antes.">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/espiral.jpg">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/espiral.jpg">
+    <meta property="og:image" content="../assets/img/tech/espiral.jpg">
+    <meta name="twitter:image" content="../assets/img/tech/espiral.jpg">
     <meta name="twitter:title" content="Ya está activa la zona de descargas">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -79,24 +87,24 @@ function PonerCookie(){
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
-                    <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
-                        </div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\index.html">inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\caracteristicas.html">características</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\descargas.html">DESCARGAs</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\sobre-nosotros.html">sobre nosotros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\politica-privacidad.html">privacidad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\blog.html">BLOG</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -107,7 +115,11 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3><strong>Ya está activa la zona de descargas</strong><br></h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>16 Octubre, 2017</span></div>
-                        <p>Hola a todos 😊 <br><br>Acabo de publicar la zona de descargas del site oficial. De momento, sólo he podido subir al site las últimas versiones de BASpeed 2018 (32 y 64 bits) y el optimizador de la conexión. En los próximos días iré subiendo el resto del software que falta para completar la zona de descargas tal y como estaba antes.<br><br>Podéis encontrar la zona de descargas a través del menú del site oficial, situado en la parte superior derecha de esta página, o bien a través del&nbsp;<a href="../descargas.html">enlace siguiente</a>.<br><br>Un saludo a todos 😊 y perdonad las molestias que os haya podido generar el cambio de site.<br><br><strong>Actualizado 01/11/2017:</strong>&nbsp;Ya están disponibles las descargas de las aplicaciones Android, que habían quedado pendientes de publicar. Están disponibles en el submenú de la opción&nbsp;<a href="../descargas.html">Descargas</a>&nbsp;de este site oficial, o bien a través de&nbsp;<a href="../descargas.html">este enlace directo</a>.<br></p>
+                        <p>Hola a todos 😊 <br><br>Acabo de publicar la zona de descargas del site oficial. De momento, sólo he podido subir al site las últimas versiones de BASpeed 2018 (32 y 64 bits) y el optimizador de la conexión. En los próximos días
+                            iré subiendo el resto del software que falta para completar la zona de descargas tal y como estaba antes.<br><br>Podéis encontrar la zona de descargas a través del menú del site oficial, situado en la parte superior derecha
+                            de esta página, o bien a través del&nbsp;<a href="../descargas.html">enlace siguiente</a>.<br><br>Un saludo a todos 😊 y perdonad las molestias que os haya podido generar el cambio de site.<br><br><strong>Actualizado 01/11/2017:</strong>&nbsp;Ya
+                            están disponibles las descargas de las aplicaciones Android, que habían quedado pendientes de publicar. Están disponibles en el submenú de la opción&nbsp;<a href="../descargas.html">Descargas</a>&nbsp;de este site oficial,
+                            o bien a través de&nbsp;<a href="../descargas.html">este enlace directo</a>.<br></p>
                     </div>
                 </div>
                 <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>

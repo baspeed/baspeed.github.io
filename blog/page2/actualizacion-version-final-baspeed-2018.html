@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -9,16 +9,33 @@
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Actualización a la versión final de BASpeed 2018">
-    <meta name="twitter:image" content="https://baspeed.github.io/assets/img/tech/Cubo.jpg">
-    <meta property="og:image" content="https://baspeed.github.io/assets/img/tech/Cubo.jpg">
+    <meta name="twitter:image" content="../../assets/img/tech/Cubo.jpg">
+    <meta property="og:image" content="../../assets/img/tech/Cubo.jpg">
     <meta property="og:description" content="Hola a todos 😊 Esta mañana subí al site oficial la actualización a la versión final de BASpeed 2018. Su número de versión es 11.0.0.101. Como ya comenté en su momento en mi blog personal, ha habido algún problema con el FTP para poder subir la actualización (en realidad un fallo mío por cambio en el nombre del servidor, cosas del cambio de año xD), pero ya está solucionado y he podido subir esta nueva versión, que ya es final.">
     <meta name="description" content="Hola a todos 😊 Esta mañana subí al site oficial la actualización a la versión final de BASpeed 2018. Su número de versión es 11.0.0.101. Como ya comenté en su momento en mi blog personal, ha habido algún problema con el FTP para poder subir la actualización (en realidad un fallo mío por cambio en el nombre del servidor, cosas del cambio de año xD), pero ya está solucionado y he podido subir esta nueva versión, que ya es final.">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../../assets/css/smoothproducts.css">
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '6']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -69,25 +86,25 @@ function PonerCookie(){
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="../index.html" style="font-weight: bold;text-shadow: 1px 1px rgba(0,0,0,0.25);background: url(&quot;../../assets/img/BASpeed.png&quot;) no-repeat;background-size: contain;color: var(--warning);">QuickSpeed<br><br><br></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
+        <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
                     <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html" style="color: rgba(0,0,0,0.5);">contacto</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
                         <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a>
-                        </div>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -98,26 +115,41 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3><strong>Actualización a la versión final de BASpeed 2018</strong><br></h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>4 Enero, 2018</span></div>
-                        <p>Hola a todos 😊 Esta mañana<a href="http://baspeed.bandaancha.eu/">&nbsp;</a><a href="http://baspeed.bandaancha.eu">subí al site oficial</a>&nbsp;la actualización a la versión final de BASpeed 2018. Su número de versión es 11.0.0.101. Como ya comenté en su momento en&nbsp;mi blog personal, ha habido algún problema con el FTP para poder subir la actualización (en realidad un fallo mío por cambio en el nombre del servidor, cosas del cambio de año xD), pero ya está solucionado y he podido subir esta nueva versión, que ya es final.<br><br>Ahora paso a comentaros los cambios de esta nueva versión, que en realidad son pocos pero suficientes para explicarlos un poco en detalle:<br><br><strong>Añadido BAClock:</strong>&nbsp;El antiguo sincronizador de hora, presente en BASpeed v8, se ha incluido en esta versión para aquellos que querían la funcionalidad antigua de este módulo, que permite sincronizar la hora del PC del usuario con uno de los muchos servidores de hora que existen en internet.<br><br><strong>Añadido el nuevo sincronizador de hora:</strong>&nbsp;Para aquellos que el antiguo sincronizador de hora se había quedado desfasado, he incluido un nuevo sincronizador de hora. Contiene la misma funcionalidad de BAClock, pero mejorada y puesta al día para las nuevas versiones de Windows. Este sincronizador será el que se actualice en las sucesivas versiones posteriores de BASpeed 2018.<br><br><strong>Añadido el servidor de velocidad en red local:</strong>&nbsp;Con este módulo procedente de BASpeed v8, cualquier usuario puede medir la velocidad de su red local, simplemente ejecutando en un PC de la red este módulo, y en otro PC cualquiera de la red de usuario, ejecutando el test de velocidad en red local.&nbsp;<br><br><strong>Añadido el test de velocidad en red local:</strong>&nbsp;Con este módulo se puede medir la velocidad en la red local del usuario, siempre y cuando en otro PC de la red se esté ejecutando el servidor de velocidad en red local.<br><br><strong>Añadido el módulo SpeedMonitor:</strong>&nbsp;Con este módulo el usuario puede medir la velocidad instantánea de descarga / subida en cualquier tarjeta de red que posea en su equipo y esté conectada a una red o a internet.&nbsp;<br><br>Esos son los módulos que se han añadido a esta versión de BASpeed. Exceptuando el nuevo sincronizador de hora, todos los demás proceden de la versión 8 de BASpeed. Esto también está comentado en el mismo post de mi blog personal donde explico las razones que me han llevado a realizar esta versión con los módulos presentes en la v8 de BASpeed.&nbsp;<br><br>En pocas palabras: No tengo tiempo para poder realizar los nuevos módulos. Así de simple. Entre trabajo, problemas de salud recientes en la familia, mi sobrino, y muchas otras cosas, es literalmente imposible que pueda sacar algo de tiempo para programar algo nuevo por lo que he decidido sacar la nueva versión de BASpeed con los módulos que faltaban sacados de la versión anterior.<br><br>Espero que más adelante, pueda tener más tiempo para poder programar y lanzar actualizaciones de los módulos que faltan pero mientras... esto es lo único que puedo hacer. Espero que entendáis mi postura y mi decisión con respecto a esta versión de BASpeed.&nbsp;<br><br>Y esto de momento es todo por el momento. Espero&nbsp;tener más tiempo y poder programar cosas nuevas. Un saludo a todos 😊 y que lo disfrutéis 😉<br><br></p>
+                        <p>Hola a todos 😊 Esta mañana<a href="http://baspeed.bandaancha.eu/">&nbsp;</a><a href="http://baspeed.bandaancha.eu">subí al site oficial</a>&nbsp;la actualización a la versión final de BASpeed 2018. Su número de versión es 11.0.0.101.
+                            Como ya comenté en su momento en&nbsp;mi blog personal, ha habido algún problema con el FTP para poder subir la actualización (en realidad un fallo mío por cambio en el nombre del servidor, cosas del cambio de año xD), pero
+                            ya está solucionado y he podido subir esta nueva versión, que ya es final.<br><br>Ahora paso a comentaros los cambios de esta nueva versión, que en realidad son pocos pero suficientes para explicarlos un poco en detalle:<br><br><strong>Añadido BAClock:</strong>&nbsp;El
+                            antiguo sincronizador de hora, presente en BASpeed v8, se ha incluido en esta versión para aquellos que querían la funcionalidad antigua de este módulo, que permite sincronizar la hora del PC del usuario con uno de los muchos
+                            servidores de hora que existen en internet.<br><br><strong>Añadido el nuevo sincronizador de hora:</strong>&nbsp;Para aquellos que el antiguo sincronizador de hora se había quedado desfasado, he incluido un nuevo sincronizador
+                            de hora. Contiene la misma funcionalidad de BAClock, pero mejorada y puesta al día para las nuevas versiones de Windows. Este sincronizador será el que se actualice en las sucesivas versiones posteriores de BASpeed 2018.<br><br><strong>Añadido el servidor de velocidad en red local:</strong>&nbsp;Con
+                            este módulo procedente de BASpeed v8, cualquier usuario puede medir la velocidad de su red local, simplemente ejecutando en un PC de la red este módulo, y en otro PC cualquiera de la red de usuario, ejecutando el test de velocidad
+                            en red local.&nbsp;<br><br><strong>Añadido el test de velocidad en red local:</strong>&nbsp;Con este módulo se puede medir la velocidad en la red local del usuario, siempre y cuando en otro PC de la red se esté ejecutando el
+                            servidor de velocidad en red local.<br><br><strong>Añadido el módulo SpeedMonitor:</strong>&nbsp;Con este módulo el usuario puede medir la velocidad instantánea de descarga / subida en cualquier tarjeta de red que posea en
+                            su equipo y esté conectada a una red o a internet.&nbsp;<br><br>Esos son los módulos que se han añadido a esta versión de BASpeed. Exceptuando el nuevo sincronizador de hora, todos los demás proceden de la versión 8 de BASpeed.
+                            Esto también está comentado en el mismo post de mi blog personal donde explico las razones que me han llevado a realizar esta versión con los módulos presentes en la v8 de BASpeed.&nbsp;<br><br>En pocas palabras: No tengo tiempo
+                            para poder realizar los nuevos módulos. Así de simple. Entre trabajo, problemas de salud recientes en la familia, mi sobrino, y muchas otras cosas, es literalmente imposible que pueda sacar algo de tiempo para programar algo
+                            nuevo por lo que he decidido sacar la nueva versión de BASpeed con los módulos que faltaban sacados de la versión anterior.<br><br>Espero que más adelante, pueda tener más tiempo para poder programar y lanzar actualizaciones
+                            de los módulos que faltan pero mientras... esto es lo único que puedo hacer. Espero que entendáis mi postura y mi decisión con respecto a esta versión de BASpeed.&nbsp;<br><br>Y esto de momento es todo por el momento. Espero&nbsp;tener
+                            más tiempo y poder programar cosas nuevas. Un saludo a todos 😊 y que lo disfrutéis 😉<br><br></p>
                     </div>
                 </div>
                 <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>
 <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://baspeed-servidor-privado.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://baspeed.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
             </div>
@@ -159,7 +191,7 @@ function PonerCookie(){
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2006-2021 djnacho &amp; BASpeed Software</p>
+            <p>© 2006-2020 djnacho &amp; BASpeed Software</p>
         </div>
     </footer>
     <script src="../../assets/js/jquery.min.js"></script>

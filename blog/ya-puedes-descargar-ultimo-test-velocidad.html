@@ -8,27 +8,35 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="Era algo que tarde o temprano iba a suceder. BASpeed es una suite muy completa y muy potente. Quizás demasiado potente para un usuario normal, con conocimientos no muy altos de redes, comunicaciones o PC. Por eso he decidido ofrecer el test de velocidad de BASpeed (la aplicación más buscada de BASpeed), como descarga independiente.
 ">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/velocidad.jpg">
+    <meta name="twitter:image" content="../assets/img/tech/velocidad.jpg">
     <meta name="description" content="Era algo que tarde o temprano iba a suceder. BASpeed es una suite muy completa y muy potente. Quizás demasiado potente para un usuario normal, con conocimientos no muy altos de redes, comunicaciones o PC. Por eso he decidido ofrecer el test de velocidad de BASpeed (la aplicación más buscada de BASpeed), como descarga independiente.
 ">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/velocidad.jpg">
+    <meta property="og:image" content="../assets/img/tech/velocidad.jpg">
     <meta name="twitter:title" content="Ya puedes descargar el último test de velocidad">
     <meta property="og:type" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -80,24 +88,24 @@ function PonerCookie(){
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
-                    <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
-                        </div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\index.html">inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\caracteristicas.html">características</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\descargas.html">DESCARGAs</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\sobre-nosotros.html">sobre nosotros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\politica-privacidad.html">privacidad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\blog.html">BLOG</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -108,8 +116,11 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3><strong>Ya puedes descargar el último test de velocidad</strong><br></h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>14 Agosto, 2020</span></div>
-                        <p>Era algo que tarde o temprano iba a suceder. BASpeed es una suite muy completa y muy potente. Quizás demasiado potente para un usuario normal, con conocimientos no muy altos de redes, comunicaciones o PC. Por eso he decidido ofrecer el test de velocidad de BASpeed (la aplicación más buscada de BASpeed), como descarga independiente.<br><br>Esta versión, ya es una versión más avanzada que la que podéis encontrar en la suite de BASpeed 2018. Tiene algunos retoques en el aspecto visual (el marcador análogico y digital de velocidad son distintos y se han agregado títulos a cada sección del panel de información de los tests de velocidad), y algunas correcciones sobre los tests de velocidad ya que alguna URL de los tests había dejado de funcionar, por lo que he cambiado el servidor para que dichos tests sean funcionales.<br><br>Aquí os dejo una captura de pantalla, para que podáis observar el nuevo aspecto del test de velocidad. Espero que os guste, y que os sea útil. Un saludo a tod@s 😊<br></p><img class="img-fluid" src="../assets/img/scenery/BASpeed2018-v2.jpg">
-                    </div>
+                        <p>Era algo que tarde o temprano iba a suceder. BASpeed es una suite muy completa y muy potente. Quizás demasiado potente para un usuario normal, con conocimientos no muy altos de redes, comunicaciones o PC. Por eso he decidido ofrecer
+                            el test de velocidad de BASpeed (la aplicación más buscada de BASpeed), como descarga independiente.<br><br>Esta versión, ya es una versión más avanzada que la que podéis encontrar en la suite de BASpeed 2018. Tiene algunos
+                            retoques en el aspecto visual (el marcador análogico y digital de velocidad son distintos y se han agregado títulos a cada sección del panel de información de los tests de velocidad), y algunas correcciones sobre los tests
+                            de velocidad ya que alguna URL de los tests había dejado de funcionar, por lo que he cambiado el servidor para que dichos tests sean funcionales.<br><br>Aquí os dejo una captura de pantalla, para que podáis observar el nuevo
+                            aspecto del test de velocidad. Espero que os guste, y que os sea útil. Un saludo a tod@s 😊<br></p><img class="img-fluid" src="../assets/img/scenery/BASpeed2018-v2.jpg"></div>
                     <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>
 <script>
 

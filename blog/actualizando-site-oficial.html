@@ -8,26 +8,34 @@
     <meta name="twitter:description" content="Test de velocidad, y suite de diagnostico de la conexión a internet.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/update.jpg">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/update.jpg">
+    <meta name="twitter:image" content="../assets/img/tech/update.jpg">
+    <meta property="og:image" content="../assets/img/tech/update.jpg">
     <meta property="og:description" content="Hola y bienvenidos al nuevo site oficial de BASpeed. Como os habréis dado cuenta durante unos días el site oficial ha estado fuera de linea (sin conexión). Esto es porque el CMS que estaba utilizando (Joomla) me estaba dando muchos problemas, tanto a la hora de actualizar el CMS, como para actualizar distintos componentes del mismo. La situación se ha vuelto tan insostenible que al final me he liado la manta a la cabeza y he borrado todo el site oficial para empezar completamente de cero.">
     <meta name="twitter:title" content="Actualizando el site oficial">
     <meta name="description" content="Hola y bienvenidos al nuevo site oficial de BASpeed. Como os habréis dado cuenta durante unos días el site oficial ha estado fuera de linea (sin conexión). Esto es porque el CMS que estaba utilizando (Joomla) me estaba dando muchos problemas, tanto a la hora de actualizar el CMS, como para actualizar distintos componentes del mismo. La situación se ha vuelto tan insostenible que al final me he liado la manta a la cabeza y he borrado todo el site oficial para empezar completamente de cero.">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -79,24 +87,24 @@ function PonerCookie(){
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
-                    <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
-                        </div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\index.html">inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\caracteristicas.html">características</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\descargas.html">DESCARGAs</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\sobre-nosotros.html">sobre nosotros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\politica-privacidad.html">privacidad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\blog.html">BLOG</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -107,7 +115,14 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3><strong>Actualizando el site oficial</strong><br></h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>15 Octubre, 2017</span></div>
-                        <p>Hola y bienvenidos al nuevo site oficial de BASpeed. Como os habréis dado cuenta durante unos días el site oficial ha estado fuera de linea (sin conexión). Esto es porque el CMS que estaba utilizando (Joomla) me estaba dando muchos problemas, tanto a la hora de actualizar el CMS, como para actualizar distintos componentes del mismo. La situación se ha vuelto tan insostenible que al final me he liado la manta a la cabeza y he borrado todo el site oficial para empezar completamente de cero. <br><br>Se que esto no es lo que normalmente se suele hacer, pero en mi caso, y conociendome como me conocéis suele ser así (al menos con el site oficial). A partir de ahora, el site oficial volverá a los orígenes, y será en HTML estático. Pero..., es evidente que algo debería cambiar ya que las webs de hoy en día son modernas y no quería perder ese punto moderno en el nuevo site.<br><br>Para crear el nuevo site oficial estoy usando una herramienta relativamente nueva que se llama&nbsp;<a href="https://getpublii.com/">Publii</a>. De hecho,&nbsp;<a href="http://baspeed.synology.me/">mi site personal</a>&nbsp;que actualicé hace pocas fechas,&nbsp;está creado usando esta herramienta. Es completamente gratuita y una de las mejores para comenzar a escribir cualquier blog (es muy intuitiva y al mismo tiempo muy potente a la hora de crearlos).<br><br>Va a haber muchos cambios en los próximos días y semanas, por lo que el aspecto de ahora veis del site oficial puede cambiar de un día para otro hasta que quede completamente como a mi me gusta (y a vosotros claro).La zona de descargas volverá a estar activa también en breve. Espero que el aspecto actual os guste más que el anterior.Un saludo a todos y nos vemos en breve 😉<br></p>
+                        <p>Hola y bienvenidos al nuevo site oficial de BASpeed. Como os habréis dado cuenta durante unos días el site oficial ha estado fuera de linea (sin conexión). Esto es porque el CMS que estaba utilizando (Joomla) me estaba dando muchos
+                            problemas, tanto a la hora de actualizar el CMS, como para actualizar distintos componentes del mismo. La situación se ha vuelto tan insostenible que al final me he liado la manta a la cabeza y he borrado todo el site oficial
+                            para empezar completamente de cero. <br><br>Se que esto no es lo que normalmente se suele hacer, pero en mi caso, y conociendome como me conocéis suele ser así (al menos con el site oficial). A partir de ahora, el site oficial
+                            volverá a los orígenes, y será en HTML estático. Pero..., es evidente que algo debería cambiar ya que las webs de hoy en día son modernas y no quería perder ese punto moderno en el nuevo site.<br><br>Para crear el nuevo site
+                            oficial estoy usando una herramienta relativamente nueva que se llama&nbsp;<a href="https://getpublii.com/">Publii</a>. De hecho,&nbsp;<a href="http://baspeed.synology.me/">mi site personal</a>&nbsp;que actualicé hace pocas
+                            fechas,&nbsp;está creado usando esta herramienta. Es completamente gratuita y una de las mejores para comenzar a escribir cualquier blog (es muy intuitiva y al mismo tiempo muy potente a la hora de crearlos).<br><br>Va a haber
+                            muchos cambios en los próximos días y semanas, por lo que el aspecto de ahora veis del site oficial puede cambiar de un día para otro hasta que quede completamente como a mi me gusta (y a vosotros claro).La zona de descargas
+                            volverá a estar activa también en breve. Espero que el aspecto actual os guste más que el anterior.Un saludo a todos y nos vemos en breve 😉<br></p>
                     </div>
                 </div>
                 <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>

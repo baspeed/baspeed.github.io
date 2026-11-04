@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -7,18 +7,35 @@
     <title>Novedades en el desarrollo de BASpeed - BASpeed</title>
     <meta name="twitter:description" content="Test de velocidad, y suite de diagnostico de la conexión a internet.">
     <meta property="og:type" content="website">
-    <meta name="twitter:image" content="https://baspeed.github.io/assets/img/tech/nuevosoftware.jpg">
+    <meta name="twitter:image" content="../../assets/img/tech/nuevosoftware.jpg">
     <meta property="og:description" content="Muy buenas a tod@s. Voy a comentaros un poco por encima cuales serán los próximos pasos en el desarrollo de BASpeed, en los próximos días, semanas y meses.">
-    <meta property="og:image" content="https://baspeed.github.io/assets/img/tech/nuevosoftware.jpg">
+    <meta property="og:image" content="../../assets/img/tech/nuevosoftware.jpg">
     <meta name="twitter:title" content="Novedades en el desarrollo de BASpeed">
     <meta name="description" content="Muy buenas a tod@s. Voy a comentaros un poco por encima cuales serán los próximos pasos en el desarrollo de BASpeed, en los próximos días, semanas y meses. ">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../../assets/css/smoothproducts.css">
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '6']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -69,25 +86,25 @@ function PonerCookie(){
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="../index.html" style="font-weight: bold;text-shadow: 1px 1px rgba(0,0,0,0.25);background: url(&quot;../../assets/img/BASpeed.png&quot;) no-repeat;background-size: contain;color: var(--warning);">QuickSpeed<br><br><br></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
+        <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
                     <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html" style="color: rgba(0,0,0,0.5);">contacto</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
                         <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a>
-                        </div>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -98,26 +115,33 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3>Novedades en el desarrollo de BASpeed</h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>27 Julio, 2020</span></div>
-                        <p>Muy buenas a tod@s. Voy a comentaros un poco por encima cuales serán los próximos pasos en el desarrollo de <a href="../index.html">BASpeed</a>, en los próximos días, semanas y meses.&nbsp;<br><br>Como primer paso, voy a desarrollar nuevos módulos para el test de ping y test de tracert. El test de ping actual funciona, aunque no me gusta demasiado como ha quedado, pero el test de tracert de momento no funciona. Como tengo que mirar los dos, voy a crearlos de cero de nuevo. Así les doy el toque que quiero, y soluciono los problemas que hay y que no puedo solucionar ya que me faltan un par de librerías que me impiden solucionar los fallos que tienen actualmente.<br><br>Seguidamente, voy a desarrollar módulos nuevos. Las ideas para ellos van a venir de todas las sugerencias que pongáis <a href="https://bandaancha.eu/foros/debate-sobre-futuro-baspeed-1739957">en este hilo del foro oficial de BASpeed</a>.&nbsp;Es muy importante que colaboréis ya que este software no habría llegado a ser lo que es hoy en día sin vosotros, y la comunidad de usuarios siempre será la parte más importante de este software.<br><br>Aparte de ello tengo más ideas en mente, pero las iré desarrollando con mucha calma ya que no tengo demasiado tiempo para programar. Lo primero siempre son vuestras ideas, que siempre se han demostrado como las mejores para ir desarrollando BASpeed a lo largo del tiempo.<br><br>Un saludo y seguimos en ello 👍😊</p>
+                        <p>Muy buenas a tod@s. Voy a comentaros un poco por encima cuales serán los próximos pasos en el desarrollo de <a href="../index.html">BASpeed</a>, en los próximos días, semanas y meses.&nbsp;<br><br>Como primer paso, voy a desarrollar
+                            nuevos módulos para el test de ping y test de tracert. El test de ping actual funciona, aunque no me gusta demasiado como ha quedado, pero el test de tracert de momento no funciona. Como tengo que mirar los dos, voy a crearlos
+                            de cero de nuevo. Así les doy el toque que quiero, y soluciono los problemas que hay y que no puedo solucionar ya que me faltan un par de librerías que me impiden solucionar los fallos que tienen actualmente.<br><br>Seguidamente,
+                            voy a desarrollar módulos nuevos. Las ideas para ellos van a venir de todas las sugerencias que pongáis <a href="https://bandaancha.eu/foros/debate-sobre-futuro-baspeed-1739957">en este hilo del foro oficial de BASpeed</a>.&nbsp;Es
+                            muy importante que colaboréis ya que este software no habría llegado a ser lo que es hoy en día sin vosotros, y la comunidad de usuarios siempre será la parte más importante de este software.<br><br>Aparte de ello tengo más
+                            ideas en mente, pero las iré desarrollando con mucha calma ya que no tengo demasiado tiempo para programar. Lo primero siempre son vuestras ideas, que siempre se han demostrado como las mejores para ir desarrollando BASpeed
+                            a lo largo del tiempo.<br><br>Un saludo y seguimos en ello 👍😊</p>
                     </div>
                 </div>
                 <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>
 <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://baspeed-servidor-privado.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://baspeed.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
             </div>
@@ -159,7 +183,7 @@ function PonerCookie(){
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2006-2021 djnacho &amp; BASpeed Software</p>
+            <p>© 2006-2020 djnacho &amp; BASpeed Software</p>
         </div>
     </footer>
     <script src="../../assets/js/jquery.min.js"></script>

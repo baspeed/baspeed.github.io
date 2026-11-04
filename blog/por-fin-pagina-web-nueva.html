@@ -10,24 +10,32 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Por fin, página web nueva">
     <meta property="og:description" content="Supongo que lo habréis notado si visitáis con relativa frecuencia el site oficial de BASpeed. Ya no tiene el aspecto de un blog normal y cualquiera, y tiene el aspecto de una página mucho más profesional y bonita visualmente...">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/paginaweb.jpg">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/paginaweb.jpg">
+    <meta property="og:image" content="../assets/img/tech/paginaweb.jpg">
+    <meta name="twitter:image" content="../assets/img/tech/paginaweb.jpg">
     <meta name="description" content="Supongo que lo habréis notado si visitáis con relativa frecuencia el site oficial de BASpeed. Ya no tiene el aspecto de un blog normal y cualquiera, y tiene el aspecto de una página mucho más profesional y bonita visualmente.">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -79,24 +87,24 @@ function PonerCookie(){
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
-                    <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
-                        </div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\index.html">inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\caracteristicas.html">características</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\descargas.html">DESCARGAs</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\sobre-nosotros.html">sobre nosotros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\politica-privacidad.html">privacidad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\blog.html">BLOG</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -107,7 +115,13 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3>Por fin, página web nueva</h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>24 Julio, 2020</span></div>
-                        <p>Supongo que lo habréis notado si visitáis con relativa frecuencia el site oficial de BASpeed. Ya no tiene el aspecto de un blog normal y cualquiera, y tiene el aspecto de una página mucho más profesional y bonita visualmente.<br><br>Uno de los cambios que quería acometer desde hace mucho era cambiar radicalmente la página web de BASpeed. Tener una página de producto, y no un blog o un <a href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos">CMS</a> como <a href="https://www.joomla.org">Joomla</a> o <a href="https://es.wordpress.com">Wordpress</a> corriendo por debajo sin ofrecer una imagen de producto, que es lo que yo quería. A partir de ahora si vamos a tener esa imagen, y por supuesto una página web como Dios manda, que ya era hora.<br><br>También he cambiado el blog de desarrollo de BASpeed. Ahora ya no está realizado con <a href="https://getpublii.com">Publii</a> (que era el anterior CMS usado para el blog), sino que es un sistema integrado con la página principal del site. De esa forma se puede ofrecer el mismo aspecto que este, y al mismo tiempo ofrecer contenido como si fuera un blog. De hecho, esta entrada y todas las anteriores (migradas de Publii a este nuevo sistema) pertenecen al nuevo blog.<br><br>Por si alguien tiene curiosidad, este site y el nuevo blog han sido creados usando <a href="https://bootstrapstudio.io">bootstrap studio</a>, de forma que los más avezados ya sabéis que este site y su blog utilizan el framework de <a href="https://getbootstrap.com">bootstrap</a> para funcionar.<br><br>Espero que os gusten los cambios ya que mi intención era mejorar por mucho todos los anteriores sitios web de BASpeed, y creo que lo he conseguido 😉. Un saludo a todos 😊<br></p>
+                        <p>Supongo que lo habréis notado si visitáis con relativa frecuencia el site oficial de BASpeed. Ya no tiene el aspecto de un blog normal y cualquiera, y tiene el aspecto de una página mucho más profesional y bonita visualmente.<br><br>Uno
+                            de los cambios que quería acometer desde hace mucho era cambiar radicalmente la página web de BASpeed. Tener una página de producto, y no un blog o un <a href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos">CMS</a>                            como <a href="https://www.joomla.org">Joomla</a> o <a href="https://es.wordpress.com">Wordpress</a> corriendo por debajo sin ofrecer una imagen de producto, que es lo que yo quería. A partir de ahora si vamos a tener esa imagen,
+                            y por supuesto una página web como Dios manda, que ya era hora.<br><br>También he cambiado el blog de desarrollo de BASpeed. Ahora ya no está realizado con <a href="https://getpublii.com">Publii</a> (que era el anterior CMS
+                            usado para el blog), sino que es un sistema integrado con la página principal del site. De esa forma se puede ofrecer el mismo aspecto que este, y al mismo tiempo ofrecer contenido como si fuera un blog. De hecho, esta entrada
+                            y todas las anteriores (migradas de Publii a este nuevo sistema) pertenecen al nuevo blog.<br><br>Por si alguien tiene curiosidad, este site y el nuevo blog han sido creados usando <a href="https://bootstrapstudio.io">bootstrap studio</a>,
+                            de forma que los más avezados ya sabéis que este site y su blog utilizan el framework de <a href="https://getbootstrap.com">bootstrap</a> para funcionar.<br><br>Espero que os gusten los cambios ya que mi intención era mejorar
+                            por mucho todos los anteriores sitios web de BASpeed, y creo que lo he conseguido 😉. Un saludo a todos 😊<br></p>
                     </div>
                     <div class="post-body"><div id="disqus_thread"></div>
 <script>

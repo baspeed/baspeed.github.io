@@ -8,26 +8,34 @@
     <meta name="twitter:description" content="Test de velocidad, y suite de diagnostico de la conexión a internet.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://baspeed.github.io/web/assets/img/tech/updrade.jpg">
-    <meta property="og:image" content="https://baspeed.github.io/web/assets/img/tech/updrade.jpg">
+    <meta name="twitter:image" content="../assets/img/tech/updrade.jpg">
+    <meta property="og:image" content="../assets/img/tech/updrade.jpg">
     <meta property="og:description" content="Hola a todos 😊 Acabo de subir al site oficial los nuevos instaladores de BASpeed 2018 de 32 y 64 bits, específicos para dichas versiones de Windows. Los enlaces ya están cambiados y disponibles en la sección de descargas de este site oficial.Se aconseja a todos los usuarios que si disponen de una versión de 64 bits de Windows, instalen la versión de 64 bits de BASpeed 2018, ya que está compilada específicamente para dicha versión de Windows.">
     <meta name="twitter:title" content="Actualización v11.0.0.233">
     <meta name="description" content="Hola a todos 😊 Acabo de subir al site oficial los nuevos instaladores de BASpeed 2018 de 32 y 64 bits, específicos para dichas versiones de Windows. Los enlaces ya están cambiados y disponibles en la sección de descargas de este site oficial.Se aconseja a todos los usuarios que si disponen de una versión de 64 bits de Windows, instalen la versión de 64 bits de BASpeed 2018, ya que está compilada específicamente para dicha versión de Windows.">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/scenery/BASpeedx16.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="../assets/css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="../assets/css/smoothproducts.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140833381-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140833381-5');
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//baspeed.synology.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
+
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion">
     <div class="inner">
@@ -79,24 +87,24 @@ function PonerCookie(){
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="../index.html">BASpeed <br>Software</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="caracteristicas.html">características</a></li>
-                    <li class="nav-item"><a class="nav-link" href="descargas.html">DESCARGAs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-privacidad.html">privacidad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">enlaces</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://djnacho.000webhostapp.com" target="_blank">Página de djnacho</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="almacenIDL/index.html" target="_blank">Almacén IDL Villanubla</a>
-                        </div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\index.html">inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\caracteristicas.html">características</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\descargas.html">DESCARGAs</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\sobre-nosotros.html">sobre nosotros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\politica-privacidad.html">privacidad</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="..\blog.html">BLOG</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">enlaces</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://bandaancha.eu" target="_blank">Portal de bandaancha.eu</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/comunidad/herramientas/baspeed" target="_blank">Foro oficial de BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://bandaancha.eu/foros/enviar/41?w" target="_blank">Mandar sugerencia para BASpeed</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/djnacho/" target="_blank">Página de djnacho</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="https://baspeed.synology.me/almacendia/" target="_blank">Almacén DIA Android</a></div>
                     </li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page blog-post">
@@ -107,7 +115,14 @@ function PonerCookie(){
                     <div class="post-body">
                         <h3><strong>Actualización v11.0.0.233</strong><br></h3>
                         <div class="post-info"><span>Por <a href="../sobre-nosotros.html">djnacho</a></span><span>23 Abril, 2019</span></div>
-                        <p>Hola a todos 😊 Acabo de subir al&nbsp;<a href="http://baspeed.bandaancha.eu">site oficial</a>&nbsp;los nuevos instaladores de BASpeed 2018 de 32 y 64 bits, específicos para dichas versiones de Windows. Los enlaces ya están cambiados y disponibles en la&nbsp;<a href="../descargas.html">sección de descargas</a>&nbsp;de este site oficial.Se aconseja a todos los usuarios que si disponen de una versión de 64 bits de&nbsp;<a href="https://www.microsoft.com/es-es/windows">Windows</a>, instalen la versión de 64 bits de BASpeed 2018, ya que está compilada específicamente para dicha versión de Windows.<br><br><strong>¡¡Nota importante!!: Antes de realizar la instalación con los nuevos instaladores, desinstalar la versión previa de BASpeed 2018. Es importante para que no haya dos entradas en el menú inicio con el mismo nombre.</strong><br><br>Aparte de este cambio, que ya estaba anunciado hace mucho tiempo, hay otros más sutiles que paso a comentar brevemente:<br><br><strong>Se han actualizado las librerias OpenSSL</strong>, de forma que ahora el test de&nbsp;<a href="https://bandaancha.eu/">bandaancha.eu</a>, que se ejecuta sobre SSL funciona correctamente.<br><br><strong>Se ha actualizado el test de velocidad</strong> para que pueda visualizarse correctamente aunque el usuario aumente la escala de visualización de Windows. Antes la aplicación cortaba los bordes de la aplicación y no se podía abrir la sección de información ampliada. Ahora esto no ocurre.<br><br><strong>Se ha corregido el menú contextual del icono de la aplicación</strong> en la bandeja del sistema, añadiendo aquellas opciones que por olvido habían quedado sin añadir en la versión anterior.<br><br>Espero que esos cambios os gusten y sean de vuestro agrado. La función de auto-actualización de momento ha desaparecido, pero está previsto que regrese en una próxima revisión de la suite.<br><br>Un saludo a todos y que lo disfrutéis 😉<br></p>
+                        <p>Hola a todos 😊 Acabo de subir al&nbsp;<a href="http://baspeed.bandaancha.eu">site oficial</a>&nbsp;los nuevos instaladores de BASpeed 2018 de 32 y 64 bits, específicos para dichas versiones de Windows. Los enlaces ya están cambiados
+                            y disponibles en la&nbsp;<a href="../descargas.html">sección de descargas</a>&nbsp;de este site oficial.Se aconseja a todos los usuarios que si disponen de una versión de 64 bits de&nbsp;<a href="https://www.microsoft.com/es-es/windows">Windows</a>,
+                            instalen la versión de 64 bits de BASpeed 2018, ya que está compilada específicamente para dicha versión de Windows.<br><br><strong>¡¡Nota importante!!: Antes de realizar la instalación con los nuevos instaladores, desinstalar la versión previa de BASpeed 2018. Es importante para que no haya dos entradas en el menú inicio con el mismo nombre.</strong><br><br>Aparte
+                            de este cambio, que ya estaba anunciado hace mucho tiempo, hay otros más sutiles que paso a comentar brevemente:<br><br><strong>Se han actualizado las librerias OpenSSL</strong>, de forma que ahora el test de&nbsp;<a href="https://bandaancha.eu/">bandaancha.eu</a>,
+                            que se ejecuta sobre SSL funciona correctamente.<br><br><strong>Se ha actualizado el test de velocidad</strong> para que pueda visualizarse correctamente aunque el usuario aumente la escala de visualización de Windows. Antes
+                            la aplicación cortaba los bordes de la aplicación y no se podía abrir la sección de información ampliada. Ahora esto no ocurre.<br><br><strong>Se ha corregido el menú contextual del icono de la aplicación</strong> en la bandeja
+                            del sistema, añadiendo aquellas opciones que por olvido habían quedado sin añadir en la versión anterior.<br><br>Espero que esos cambios os gusten y sean de vuestro agrado. La función de auto-actualización de momento ha desaparecido,
+                            pero está previsto que regrese en una próxima revisión de la suite.<br><br>Un saludo a todos y que lo disfrutéis 😉<br></p>
                     </div>
                 </div>
                 <div class="post-body" style="background-color: #ffffff;"><div id="disqus_thread"></div>
