@@ -1,0 +1,17 @@
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mt-0 {
+  margin-top: 0rem !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.pt-4 {
+  padding-top: 1.5rem !important;
+}
+

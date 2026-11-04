@@ -48,7 +48,6 @@ html, body {
   -webkit-transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
   -ms-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
   transition: all .2s ease-out;
 }
 
@@ -82,7 +81,6 @@ html, body {
   left: -50%;
   top: -50%;
   cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
   cursor: zoom-in;
   display: none;
 }
